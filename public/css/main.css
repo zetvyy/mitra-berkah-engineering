@@ -1079,6 +1079,16 @@ section,
     font-size: 16px;
 }
 
+/* Ensure flex children can shrink/wrap inside stats items so text doesn't overflow */
+.stats .stats-item > div {
+    flex: 1 1 auto;
+    min-width: 0; /* allow the flex item to shrink below its content width */
+}
+
+.text-card {
+    overflow: visible;
+}
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
@@ -1318,6 +1328,16 @@ section,
 
 .services-2 .service-item:hover .title a {
     color: var(--accent-color);
+}
+
+.list-service {
+    font-size: small;
+    text-align: start;
+}
+
+.img-service {
+    width: 800px;
+    height: 600px;
 }
 
 /*--------------------------------------------------------------
