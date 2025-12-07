@@ -63,7 +63,7 @@
       <img src="{{asset('img/hero-bg.jpg')}}" alt="" data-aos="fade-in">
 
       <div class="container d-flex flex-column align-items-center">
-        <h2 data-aos="fade-up" data-aos-delay="100">CV Mitra Berkah Engineering</h2>
+        <h2 class="text-center" data-aos="fade-up" data-aos-delay="100">CV Mitra Berkah Engineering</h2>
         <p data-aos="fade-up" data-aos-delay="200">Spesialis service gearbox industri</p>
         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
           <a href="#about" class="btn-get-started">Tentang Kami</a>
@@ -533,19 +533,8 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.4896127005706!2d112.44022395461802!3d-7.4744286937335245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780d56bdb7a363%3A0x7712251e97be6838!2sPerumahan!5e0!3m2!1sen!2sid!4v1765029133280!5m2!1sen!2sid" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-lg-2 col-md-3 footer-maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.4896127005706!2d112.44022395461802!3d-7.4744286937335245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780d56bdb7a363%3A0x7712251e97be6838!2sPerumahan!5e0!3m2!1sen!2sid!4v1765029133280!5m2!1sen!2sid" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
